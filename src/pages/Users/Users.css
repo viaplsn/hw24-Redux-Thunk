@@ -1,0 +1,49 @@
+.Users {
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 16px 0;
+}
+.Users__header {
+    font-family: inherit;
+    color: inherit;
+    text-align: center;
+    font-size: 24px;
+}
+.Users__container {
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Users__container__name {
+    min-width: 175px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Users__container__name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Users__container__username {
+    min-width: 175px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.Users__container__image {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Users__container__image:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}

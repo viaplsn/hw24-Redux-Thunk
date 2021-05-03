@@ -1,0 +1,64 @@
+.AddUser {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputForm, .inputForm__names, .inputForm__descriptions {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.inputForm {
+    margin: 14px 0;
+}
+.inputForm__name, .inputForm__description {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 25%;
+    text-align: center;
+}
+.inputForm__input, .AddUser__button {
+    padding: 10px 10px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.5);
+    width: 25%;
+    transition: all 0.3s ease-in-out;
+}
+.inputForm__input:hover, .AddUser__button:hover, .inputForm__input:focus, .AddUser__button:focus {
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 1); 
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.AddUser__button {
+    margin-top: 42px;
+}
+.AddUser__button:hover {
+    cursor: pointer;
+}
+.AddUser__button:active {
+    box-shadow: none;
+}
+.AddUser__errors {
+    margin-top: 42px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AddUser__error {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #f15930;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}

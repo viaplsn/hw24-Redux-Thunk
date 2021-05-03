@@ -1,0 +1,135 @@
+.Post {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 12.5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+.Post:hover{
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 1); 
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.Post__profilePicture {
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.profilePicture__container {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.profilePicture__container:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+.Post__container {
+    padding-right: 12.5px;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Post__container__header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.Post__container__header__name {
+    font-size: 16px;
+}
+.Post__container__header__name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Post__container__header__text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#verified-icon {
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
+#navigate-arrow {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    fill: white;
+}
+#navigate-arrow:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s linear;
+}
+.Post__container__content {
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0;
+    width: 100%;
+}
+.Post__container__image {
+    margin: 10px 0;
+}
+.Post__container__image__img {
+    width: 635px; 
+    height: auto; 
+    display: block;
+}
+.Post__container__image__img:hover {
+    cursor: pointer;
+}
+.Post__activity {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.Post__activity__likes, .Post__activity__comments, .Post__activity__reposts {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+#like, #comment, #repost, #share {
+    filter: brightness(0.9);
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+}
+#comment {
+    position: relative;
+    top: 2px;
+}
+.likes, .comments, .reposts {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+}
+.like__button, .comment__button, .repost__button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+#like:hover, #comment:hover, #repost:hover, #share:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    filter: unset;
+}

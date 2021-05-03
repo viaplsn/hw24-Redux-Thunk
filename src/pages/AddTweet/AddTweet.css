@@ -1,0 +1,48 @@
+.AddTweet {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AddTweet__button {
+    padding: 10px 10px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.5);
+    width: 25%;
+    transition: all 0.3s ease-in-out;
+}
+.AddTweet__button:hover, .AddTweet__button:focus {
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 1); 
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.AddTweet__button {
+    margin-top: 42px;
+}
+.AddTweet__button:hover {
+    cursor: pointer;
+}
+.AddTweet__button:active {
+    box-shadow: none;
+}
+.AddTweet__errors {
+    margin-top: 42px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AddTweet__error {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #f15930;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
