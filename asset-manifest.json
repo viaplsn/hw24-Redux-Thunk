@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/hw24-Redux-Thunk/static/css/main.6b7b56c6.chunk.css",
-    "main.js": "/hw24-Redux-Thunk/static/js/main.67f97692.chunk.js",
-    "main.js.map": "/hw24-Redux-Thunk/static/js/main.67f97692.chunk.js.map",
-    "runtime-main.js": "/hw24-Redux-Thunk/static/js/runtime-main.6a2af597.js",
-    "runtime-main.js.map": "/hw24-Redux-Thunk/static/js/runtime-main.6a2af597.js.map",
-    "static/js/2.56217b6a.chunk.js": "/hw24-Redux-Thunk/static/js/2.56217b6a.chunk.js",
-    "static/js/2.56217b6a.chunk.js.map": "/hw24-Redux-Thunk/static/js/2.56217b6a.chunk.js.map",
+    "main.css": "/hw24-Redux-Thunk/static/css/main.0ac5e041.chunk.css",
+    "main.js": "/hw24-Redux-Thunk/static/js/main.d25a5978.chunk.js",
+    "main.js.map": "/hw24-Redux-Thunk/static/js/main.d25a5978.chunk.js.map",
+    "runtime-main.js": "/hw24-Redux-Thunk/static/js/runtime-main.3bcd0b45.js",
+    "runtime-main.js.map": "/hw24-Redux-Thunk/static/js/runtime-main.3bcd0b45.js.map",
+    "static/js/2.fd355554.chunk.js": "/hw24-Redux-Thunk/static/js/2.fd355554.chunk.js",
+    "static/js/2.fd355554.chunk.js.map": "/hw24-Redux-Thunk/static/js/2.fd355554.chunk.js.map",
     "index.html": "/hw24-Redux-Thunk/index.html",
-    "static/css/main.6b7b56c6.chunk.css.map": "/hw24-Redux-Thunk/static/css/main.6b7b56c6.chunk.css.map",
-    "static/js/2.56217b6a.chunk.js.LICENSE.txt": "/hw24-Redux-Thunk/static/js/2.56217b6a.chunk.js.LICENSE.txt",
-    "static/media/logo.b2e5a01e.svg": "/hw24-Redux-Thunk/static/media/logo.b2e5a01e.svg"
+    "static/css/main.0ac5e041.chunk.css.map": "/hw24-Redux-Thunk/static/css/main.0ac5e041.chunk.css.map",
+    "static/js/2.fd355554.chunk.js.LICENSE.txt": "/hw24-Redux-Thunk/static/js/2.fd355554.chunk.js.LICENSE.txt",
+    "static/media/comment.e5c94563.svg": "/hw24-Redux-Thunk/static/media/comment.e5c94563.svg",
+    "static/media/like.04f0db23.svg": "/hw24-Redux-Thunk/static/media/like.04f0db23.svg",
+    "static/media/navigate-arrow.18779c7f.svg": "/hw24-Redux-Thunk/static/media/navigate-arrow.18779c7f.svg",
+    "static/media/repost.00d1c49f.svg": "/hw24-Redux-Thunk/static/media/repost.00d1c49f.svg",
+    "static/media/share.e6da9b5d.svg": "/hw24-Redux-Thunk/static/media/share.e6da9b5d.svg",
+    "static/media/verified-icon.8e18eb0a.svg": "/hw24-Redux-Thunk/static/media/verified-icon.8e18eb0a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a2af597.js",
-    "static/js/2.56217b6a.chunk.js",
-    "static/css/main.6b7b56c6.chunk.css",
-    "static/js/main.67f97692.chunk.js"
+    "static/js/runtime-main.3bcd0b45.js",
+    "static/js/2.fd355554.chunk.js",
+    "static/css/main.0ac5e041.chunk.css",
+    "static/js/main.d25a5978.chunk.js"
   ]
 }
