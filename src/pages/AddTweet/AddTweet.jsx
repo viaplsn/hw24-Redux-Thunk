@@ -4,6 +4,7 @@ import createTweet from '../../store/actionCreators/createTweet';
 import './AddTweet.css'
 import '../AddUser/AddUser.css'
 import { useSelector } from 'react-redux';
+import getUsers from '../../store/actionCreators/getUsers';
 
 const AddTweet = () => {
     const [currentUser, setUser] = useState('User');
@@ -21,7 +22,8 @@ const AddTweet = () => {
             dispatch(createTweet({userId: Number(currentUser), content: currentContent, image: currentLink}));
             setButtonState(false)
         };
-    }, [dispatch, users, buttonState, currentContent, currentLink, currentUser]);
+        dispatch(getUsers());
+    }, [dispatch, buttonState, currentContent, currentLink, currentUser]);
 
     const submitChanges = () => {
         const erors = document.querySelector('.AddTweet__errors');
@@ -44,9 +46,9 @@ const AddTweet = () => {
             </div>
             <div className="inputForm">
                 <select className="inputForm__input select"  value={currentUser} onChange={e => {setUser(e.target.value)}}>
-                    <option disabled value="User">User</option>
+                    <option className="inputForm__option" disabled value="User">User</option>
                     {users.map((user, index) => {
-                        return <option key={index} value={user.id}>{user.name}</option>
+                        return <option key={index} className="inputForm__option" value={user.id}>{user.name}</option>
                     })}
                 </select>
                 <input className="inputForm__input input" type="text" onChange={e => setContent(e.target.value)}></input>

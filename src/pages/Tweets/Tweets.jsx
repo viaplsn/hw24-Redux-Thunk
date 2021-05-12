@@ -4,6 +4,7 @@ import './Tweets.css';
 import { useDispatch } from 'react-redux';
 import getTweets from '../../store/actionCreators/getTweets';
 import { useSelector } from 'react-redux';
+import getUsers from '../../store/actionCreators/getUsers';
 
 const Tweets = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,11 @@ const Tweets = () => {
   const tweets = useSelector(state => state.tweets);
 
   useEffect(() => {
-    dispatch(getTweets());
+    async function getInfo() {
+      await dispatch(getUsers());  
+      dispatch(getTweets()); 
+    }
+    getInfo();
 }, [dispatch]);
     return (
       <main className="Tweets">
